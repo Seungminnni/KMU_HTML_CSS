@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aquamarine;
+}
+a{
+    border-width: 50p;
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    color: red;
+    background-color: #fff;
+    height: 200px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+ div {
+    
+    width: 100px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    box-shadow: 10px 10px 10px black; /* 마지막 사이즈는 블러 처리 */
+    /* box-shadow: -10px 10px 5px #666; */
+    /* box-shadow: inset -3px -4px 17px 5px #666; */
+    /* border-radius: 70px; */
+    background-color: #fff;
+    transform: rotate();
+    /* border-style: solid dashed; */
+    /* border-left-width: 10px;  */
+    /* border-width: 1px 10px 5px 20px; /* 상 우 하 좌 순서 */
+    /* border-color: maroon blue;  */
+
+    /* border-top: solid 20px maroon; 이런식으로 한꺼번에 각각 따로 가능 */ 
+
+}
+
+div#second{
+    margin-top: 20px;
+}
+/* 아래 내용 마진탑과 위 내용의 마진 바텀이 중복되면 마진이 반영이 안될 수 있음 */
+/* margin collaps ex) 마진 바텀 100 마진탑 50이면 100만 반영됨 */
+
+div.small{
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    color: green;
+}
+
+ul{
+
+    display: inline;
+}
+p#para{
+    font: 1.5rem "Times New Roman";
+    /* line-height: 2rem; */
+    background: #f2f5d5;
+    width: 500px;
+    height: 150px;
+    /*
+    padding: 100px;
+    border: 5px solid gray;
+    margin: 20px; */
+    padding: auto;
+    overflow: hidden;
+    border: solid 10px #000;
+}
+
+strong{
+    font-size: 200%;
+    align-items:
+}
