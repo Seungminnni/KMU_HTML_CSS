@@ -58,6 +58,28 @@ contents
 - body요소 안의 내용은 브라우저 윈도우에 표시되는 내용
 - 실제로 눈에 보이는 내용은 body요소 내부에 있어야 함
 
+## 1.1 HTML의 다양한 요소
+
+### 1.1.1 img요소
+```HTML
+<img src="images/photo.jpg" alt="Seungminnni" title="seungminLee profile Photo" 
+width="600" height="450" />
+```
+- 이미지 첨부할때는 ```<img src/>```를 사용한다
+- src는 이미지 소스의 주소넣는다
+- alt는 이미지의 설명을 제공한다
+- title은 추가적인 이미지의 정보를 제공하며 마우스를 이미지에 호버했을때 설명이 띄워진다
+- width와 height는 이미지의 너비와 높이를 지정한다
+
+### 1.1.2 글씨에 하이퍼링크 삽입하기
+```HTML
+<a href="https://www.kmu.ac.kr/">KMU</a>
+```
+- ```<a href="사이트 링크">내용</a>``` 형식으로 작성
+- 내용이라는 글씨를 클릭하면 사이트 링트로 이동 됨
+- 실제로 적용된 예시
+<a href="https://www.kmu.ac.kr/">KMU</a>
+
 ## 2. CSS
 - 작성한 HTML의 내용을 CSS를 이용해 꾸미거나 스타일을 변경
 - 주로 외부스타일 시트를 이용한 방법을 사용함
