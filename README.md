@@ -140,6 +140,16 @@ width="600" height="450" />
 - 실제로 적용된 예시
 <a href="https://www.kmu.ac.kr/">KMU</a>
 
+## 1.2 사용예시
+### 1.2.1 리스트요소와 하이퍼링크기능 같이 사용해보기
+```HTML
+<ul>
+  <li><a href="https://www.kmu.ac.kr/">KMU</a></li>
+  <li><a href="https://www.kmu.ac.kr/">YU</a></li>
+<ul>
+```
+- 큰 요소 내에 작은 세부요소 사용가능
+
 ## 2. CSS
 - 작성한 HTML의 내용을 CSS를 이용해 꾸미거나 스타일을 변경
 - 주로 외부스타일 시트를 이용한 방법을 사용함
