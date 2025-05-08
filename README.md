@@ -60,7 +60,67 @@ contents
 
 ## 1.1 HTML의 다양한 요소
 
-### 1.1.1 img요소
+### 1.1.1 Paragraphs요소
+```HTML
+<p>안녕하십니까 저는 대학생 이승민입니다</p>
+<p>현재 대학교에 재학중이며, 컴퓨터와 관련된 여러가지를 배우고 있습니다</p>
+```
+- 본문 내용을 작성할때 사용하는 요소
+
+### 1.1.2 Headings요소
+```HTML
+<h1>계명대학교</h1>
+<h2>컴퓨터공학과</h2>
+<h3>web construction</h3>
+```
+- h1부터 h6까지 사용가능하며 문서의 머리 부분이다
+- 주로 제목, 주제, 서두에 사용함
+
+### 1.1.3 리스트 요소
+#### 1. Unordered lists
+```HTML
+<ul>
+  <li>계명대학교</li>
+  <li>컴퓨터공학과</li>
+  <li>web construction</li>
+</ul>
+```
+- 계명대학교
+- 컴퓨터공학과
+- web construction
+
+- 이런식으로 결과는 점만 찍히는 리스트이다
+
+#### 2. ordered lists
+```HTML
+<ol>
+  <li>계명대학교</li>
+  <li>컴퓨터공학과</li>
+  <li>web construction</li>
+</ol>
+```
+1. 계명대학교
+2. 컴퓨터공학과
+3. web construction
+
+- 이런식으로 순차적 숫자가 반영되는 리스트이다
+
+#### 3. Discription lists
+```HTML
+<dl>
+  <dt>계명대학교</dt>
+  <dd>아름다운 학교</dd>
+</dl>
+```
+
+<dl>
+  <dt>계명대학교</dt>
+  <dd>아름다운 학교</dd>
+</dl>
+
+- 어떤 것을 설명하기 위한 리스트
+
+### 1.1.4 img요소
 ```HTML
 <img src="images/photo.jpg" alt="Seungminnni" title="seungminLee profile Photo" 
 width="600" height="450" />
@@ -71,7 +131,7 @@ width="600" height="450" />
 - title은 추가적인 이미지의 정보를 제공하며 마우스를 이미지에 호버했을때 설명이 띄워진다
 - width와 height는 이미지의 너비와 높이를 지정한다
 
-### 1.1.2 글씨에 하이퍼링크 삽입하기
+### 1.1.5 글씨에 하이퍼링크 삽입하기
 ```HTML
 <a href="https://www.kmu.ac.kr/">KMU</a>
 ```
